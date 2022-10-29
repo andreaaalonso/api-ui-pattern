@@ -1,4 +1,4 @@
-# api-ui-pattern: Hella Facts!
+# API-UI-Pattern: Hella Facts!
 
 # Description
 A unique accordion dashboard that displays random and knowledgable facts when clicked upon.
