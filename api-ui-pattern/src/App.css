@@ -1,0 +1,45 @@
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+body {
+  font-family: Verdana, sans-serif;
+  margin:0;
+  background-color:firebrick;
+}
+
+.p-title {
+  font-size:xx-large;
+  text-align: center;
+  font-family:fantasy;
+  color: white;
+}
+
+button {
+  background-color: white;
+  color: black;
+  border-color: lightcoral;
+  font-family: fantasy;
+  text-align: center;
+  margin: auto;
+  display: flex;
+  font-size: larger;
+  padding-top: 10px;
+
+}
+
+.accordion {
+  padding-left: 100px;
+  padding-right: 160px;
+  border: firebrick !important;
+}
+
+.p-text {
+  color: white;
+}
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
